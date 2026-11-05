@@ -10,7 +10,7 @@
 
 ## APK
 
-- 위치: 이 저장소의 **Releases → `v0.1`** 에 `OdoWorks_한탭운행기록부_release.apk`로 첨부 (용량 약 20MB라 저장소에는 넣지 않음)
+- 위치: 이 저장소의 **Releases → `v0.1`** 에 `OdoWorks_HantapLogbook_release.apk`로 첨부 (용량 약 20MB라 저장소에는 넣지 않음)
 - release 빌드, 서명됨. 패키지 `io.odoworks.logbook`, 버전 0.1 (versionCode 1)
 
 ## 테스트 환경
@@ -29,7 +29,7 @@
 
 ```sh
 emulator -avd <Pleos 에뮬레이터 AVD 이름> -timezone Asia/Seoul
-adb install -r OdoWorks_한탭운행기록부_release.apk   # Releases에서 받은 파일
+adb install -r OdoWorks_HantapLogbook_release.apk   # Releases에서 받은 파일
 adb shell am start -n io.odoworks.logbook/.ui.MainActivity
 ```
 
